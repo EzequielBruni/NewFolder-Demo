@@ -184,6 +184,10 @@ sub {
   padding-left: 1.5em;
 }
 
+.content ul li p:last-child {
+  margin: 0 !important;
+}
+
 .content ol {
   counter-reset: li;
   /* Initiate a counter */
@@ -202,6 +206,10 @@ sub {
   /* Disable the normal item numbering */
 }
 
+.content ol > li p:last-child {
+  margin: 0 !important;
+}
+
 .content ol > li:before {
   content: counter(li);
   /* Use the counter as content */
@@ -216,6 +224,7 @@ sub {
   text-align: center;
   padding: .15em;
   background-color: #eff8f7;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .content ol ol li:last-child {
