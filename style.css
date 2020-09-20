@@ -301,7 +301,7 @@ nav.nav-bar ul li a, nav.nav-block ul li a {
   color: #fff6b7;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   nav.nav-bar ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -407,7 +407,7 @@ nav.dropdown.nav-block ul li ul {
   margin-top: 0rem;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   nav.dropdown ul li {
     position: relative;
   }
@@ -470,7 +470,7 @@ nav.hamburger input:checked ~ ul {
   display: block;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 60rem) {
   nav.hamburger > label {
     display: none;
   }
