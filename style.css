@@ -235,7 +235,7 @@ a {
 }
 
 a:hover {
-  color: #a7dad4;
+  color: #79044c;
 }
 
 /* BLOCKQUOTE */
@@ -291,11 +291,11 @@ nav.nav-bar ul li a, nav.nav-block ul li a {
 
 .nav-filled ul li a {
   background: #eff8f7;
+  color: #db088a;
 }
 
 .nav-filled ul li a:hover {
-  background: #2e4148;
-  color: #fff6b7;
+  background: #95d2cb;
 }
 
 @media (min-width: 50rem) {
@@ -398,6 +398,10 @@ nav.dropdown ul li.drop label, nav.dropdown ul li.folder label {
   text-align: center;
   width: 2rem;
   height: 2.2rem;
+}
+
+nav.dropdown ul li.drop label:hover, nav.dropdown ul li.folder label:hover {
+  background: #2e4148;
 }
 
 nav.dropdown.nav-block ul li ul {
