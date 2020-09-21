@@ -72,21 +72,14 @@ table {
 /* FONT IMPORT */
 /* FONT VARIABLES */
 /* TYPE SCALING */
-:root {
-  font-size: 16px;
+@media screen and (max-width: 50rem) {
+  :root, body {
+    font-size: 16px;
+  }
 }
 
-/*
-  @media (min-width: 800px) {
-    :root {
-      font-size: calc(1rem + ((1vw - 7.68px) * 0.3472));
-      min-height: 0vw;
-    }
-  }
-
-*/
-@media (min-width: 1920px) {
-  :root {
+@media screen and (min-width: 50rem) {
+  :root, body {
     font-size: 20px;
   }
 }
@@ -307,7 +300,7 @@ nav.nav-bar ul li a, nav.nav-block ul li a {
   color: #fff6b7;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 50rem) {
   nav.nav-bar ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -413,7 +406,7 @@ nav.dropdown.nav-block ul li ul {
   margin-top: 0rem;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 50rem) {
   nav.dropdown ul li {
     position: relative;
   }
@@ -476,7 +469,7 @@ nav.hamburger input:checked ~ ul {
   display: block;
 }
 
-@media (min-width: 60rem) {
+@media (min-width: 50rem) {
   nav.hamburger > label {
     display: none;
   }
