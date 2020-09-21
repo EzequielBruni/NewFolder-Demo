@@ -250,22 +250,21 @@ blockquote p {
 }
 
 /* FLOATS */
-.float-left {
-  float: left;
-}
-
-.content .float-left {
-  max-width: 45%;
-  margin: 0 1.5rem 0 0;
-}
-
-.float-right {
-  float: right;
-}
-
-.content .float-right {
-  max-width: 45%;
-  margin: 0 0 0 1.5rem;
+@media (min-width: 60rem) {
+  .float-left {
+    float: left;
+  }
+  .content .float-left {
+    max-width: 45%;
+    margin: 0 1.5rem 0 0;
+  }
+  .float-right {
+    float: right;
+  }
+  .content .float-right {
+    max-width: 45%;
+    margin: 0 0 0 1.5rem;
+  }
 }
 
 @media (min-width: 1100px) {
