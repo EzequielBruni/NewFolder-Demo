@@ -72,13 +72,19 @@ table {
 /* FONT IMPORT */
 /* FONT VARIABLES */
 /* TYPE SCALING */
-@media (min-width: 768px) {
-  :root {
-    font-size: calc(1rem + ((1vw - 7.68px) * 0.3472));
-    min-height: 0vw;
-  }
+:root {
+  font-size: 16px;
 }
 
+/*
+  @media (min-width: 800px) {
+    :root {
+      font-size: calc(1rem + ((1vw - 7.68px) * 0.3472));
+      min-height: 0vw;
+    }
+  }
+
+*/
 @media (min-width: 1920px) {
   :root {
     font-size: 20px;
@@ -135,7 +141,7 @@ h5 {
 }
 
 small, .text_small {
-  font-size: 0.833em;
+  font-size: 0.9em;
 }
 
 /* GENERAL ALIGNMENTS */
@@ -489,7 +495,7 @@ nav.breadcrumb ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: .8em;
+  font-size: .9em;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -543,7 +549,7 @@ nav.accordion ul li a {
 pre {
   background: #2e4148;
   color: #fff6b7;
-  font-size: .8rem;
+  font-size: .9rem;
   padding: 1rem;
   -webkit-box-shadow: inset 0px 0px 0.5em 0px rgba(0, 0, 0, 0.75);
           box-shadow: inset 0px 0px 0.5em 0px rgba(0, 0, 0, 0.75);
@@ -561,7 +567,7 @@ pre code {
 p code {
   background: #eff8f7;
   padding: .3em;
-  font-size: .8em;
+  font-size: .9em;
   -webkit-box-shadow: inset 0px 0px 0.2em 0px rgba(0, 0, 0, 0.3);
           box-shadow: inset 0px 0px 0.2em 0px rgba(0, 0, 0, 0.3);
 }
@@ -594,7 +600,7 @@ img {
 
 .content figure figcaption {
   padding: 0 .5rem .3rem .5rem;
-  font-size: .8em;
+  font-size: .9em;
   color: #fff6b7;
 }
 
@@ -644,7 +650,7 @@ img {
 }
 
 .alert p {
-  font-size: .8em;
+  font-size: .9em;
 }
 
 .alert a:hover {
