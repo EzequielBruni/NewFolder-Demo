@@ -595,36 +595,6 @@ img {
   color: #fff6b7;
 }
 
-.in-content-text-bg {
-  border-left: 0.5rem solid #a7dad4;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-}
-
-.in-content-text-bg img {
-  -webkit-filter: brightness(60%) grayscale(50%);
-          filter: brightness(60%) grayscale(50%);
-  border: 0;
-}
-
-.in-content-text-bg div {
-  width: 70%;
-  color: #fff6b7;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  text-shadow: 2px 2px 4px black;
-}
-
-.in-content-text-bg div p {
-  font-family: "IBM Plex Mono", monospace;
-}
-
-/*  */
 /* ALERT BOXES */
 .alert {
   background-color: #eff8f7;
