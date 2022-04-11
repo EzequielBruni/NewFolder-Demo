@@ -36,7 +36,7 @@ div.accordiondemo {
   form#demoform {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    // gap: .5em .5em;
+    gap: .5em
   
     > label, > fieldset {
       min-width: 180px;
