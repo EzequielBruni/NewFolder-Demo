@@ -1,4 +1,4 @@
-div.primarycolor, div.secondarycolor, div.tertiarycolor, div.lightbackground, div.darkbackground {
+div.primarycolor, div.secondarycolor, div.tertiarycolor, div.background1, div.background2 {
   padding: 1rem;
   margin-top: .5rem;
   color: var(--text-color-2);
@@ -17,12 +17,12 @@ div.tertiarycolor {
   color: var(--text-color-1);
 }
 
-div.lightbackground {
+div.background1 {
   background: var(--background-color-1);
   color: var(--text-color-1);
 }
 
-div.darkbackground {
+div.background2 {
   background: var(--background-color-2);
 }
 
